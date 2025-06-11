@@ -10,3 +10,6 @@ Ignore capitalization when determining if a character is a duplicate.
 function duplicateEncode(word){
     return word.split(``).map((x) => word.split(``).filter((a) => a.toLowerCase() === x.toLowerCase()).length > 1 ? ")" : "(").join(``);
 }
+
+console.log(duplicateEncode(`aaasdsdsd123sdfsgsg`)) // must return )))))))))((())())))
+console.log(duplicateEncode(`222sssdadadad1`)) // must return )))))))))))))(

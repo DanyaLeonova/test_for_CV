@@ -20,3 +20,6 @@ function wave(str){
     }
   return j
 }
+
+console.log(wave(`string`)) // must return ['String', 'sTring', 'stRing', 'strIng', 'striNg', 'strinG']
+console.log(wave(`two words`)) // must return ['Two words', 'tWo words', 'twO words', 'two Words', 'two wOrds', 'two woRds', 'two worDs', 'two wordS']

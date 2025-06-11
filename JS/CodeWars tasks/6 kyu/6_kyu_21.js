@@ -10,3 +10,6 @@ with the same multiplicities (the multiplicity of a member is the number of time
 function comp(array1, array2){
   return array1 && array2 ? array1.sort((x,y) => x - y).every((x, y, array1) => x*x === array2.sort((x,y) => x - y)[y]) : false
 }
+
+console.log(comp([121, 144, 19, 161, 19, 144, 19, 11],[121, 14641, 20736, 361, 25921, 361, 20736, 361])) //must return true
+console.log(comp([121, 144, 19, 161, 19, 144, 19, 11],[132, 14641, 20736, 361, 25921, 361, 20736, 361])) //must return false

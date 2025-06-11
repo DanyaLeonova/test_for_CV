@@ -14,3 +14,7 @@ function findNb(m) {
       }
   return m === 0 ? i - 1 : -1
 }
+
+console.log(findNb(1071225)) // must return 45
+console.log(findNb(2048)) // must return -1
+console.log(findNb(91716553919376)) // must return 4376

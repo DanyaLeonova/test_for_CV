@@ -26,3 +26,7 @@ function high(x){
     
     return w;
 }
+
+console.log(high(`asd feeee erewt wef as aaa ka zzz zza`)) // must return zzz
+console.log(high(`asd  ddd`)) // must return asd
+console.log(high(`asdaaaaa feeee erewrrrt wef as aaqassa adsadadsdadadasdka zza`)) // must return erewrrrt

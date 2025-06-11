@@ -13,3 +13,6 @@ function isPangram(string){
     }
   return st.size === 26
 }
+
+console.log(isPangram(`The quick brown fox jumps over the lazy dog.`)) // must return true
+console.log(isPangram(`This is not pangram.`)) // must return false

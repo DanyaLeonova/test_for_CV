@@ -22,3 +22,6 @@ function tribonacci(signature,n){
     }
   return mas
 }
+
+console.log(tribonacci([3,7,1], 14)) // must return [3, 7, 1, 11, 19, 31, 61, 111, 203, 375, 689, 1267, 2331, 4287]
+console.log(tribonacci([3,1,1], 5)) // must return [3, 1, 1, 5, 7]

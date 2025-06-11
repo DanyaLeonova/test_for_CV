@@ -14,3 +14,6 @@ function duplicateCount(text){
     }
   return Object.values(arr).filter(x => x > 1).length
 }
+
+console.log(duplicateCount(`asdasdasdasdqweqwwe1241214ewqewqeqeqew`)) // must return 9
+console.log(duplicateCount(`asdasdasdasdqweqwwqzzzzewqeqeqew`)) // must return 7

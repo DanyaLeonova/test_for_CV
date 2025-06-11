@@ -8,3 +8,6 @@ Description: Complete the solution so that the function will break up camel casi
 function solution(string) {
   return string.split(``).map((x) => x.toUpperCase() === x ? ` ` + x : x).join(``)
 }
+
+console.log(solution(`asWereSaidPopMadeFromQQQQ`)) // must return as Were Said Pop Made From Q Q Q Q
+console.log(solution(`asEddddddPopPPPalalla`)) // must return as Edddddd Pop P P Palalla

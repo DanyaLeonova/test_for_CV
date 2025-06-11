@@ -18,3 +18,6 @@ function queueTime(customers, n) {
     }
   return Math.max(...j)
 }
+
+console.log(queueTime([10,2,3,3], 2)) //must return 10
+console.log(queueTime([2,3,10], 2)) //must return 12

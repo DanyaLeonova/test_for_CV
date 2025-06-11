@@ -14,3 +14,6 @@ function towerBuilder(nFloors) {
     }
   return pyr
 }
+
+console.log(towerBuilder(5)) // must return 5-leveled pyramid in one string
+console.log(towerBuilder(4)) // must return 4-leveled pyramid in one string

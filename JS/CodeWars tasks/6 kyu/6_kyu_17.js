@@ -9,3 +9,6 @@ If anything in the text isn't a letter, ignore it and don't return it.
 function alphabetPosition(text) {
   return text.toLowerCase().split(``).filter((x) => x.match(/[a-z]/g)).map((x) => x.charCodeAt() - 96).join(` `);
 }
+
+console.log(alphabetPosition(`asdads1`)) // must return 1 19 4 1 4 19
+console.log(alphabetPosition(`asdasdsdda12xvvx sg`)) // must return 1 19 4 1 19 4 19 4 4 1 24 22 22 24 19 7

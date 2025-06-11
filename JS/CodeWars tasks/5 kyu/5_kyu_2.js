@@ -26,3 +26,7 @@ function incrementString (s) {
       return s + `1`;
     }
 }
+
+console.log(incrementString(`foo123`)); // must return foo124
+console.log(incrementString(`foo099`)); // must return foo100
+console.log(incrementString(`foo`)) // must return foo1

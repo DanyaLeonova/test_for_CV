@@ -22,3 +22,6 @@ function dirReduc(arr){
     }
     return reducer
 }
+
+console.log(dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"])); // must return ['WEST']
+console.log(dirReduc(["NORTH", "SOUTH", "SOUTH", "SOUTH", "WEST", "NORTH", "SOUTH", "NORTH", "NORTH", "WEST", "EAST"])); // must return ['SOUTH', 'SOUTH', 'WEST', 'NORTH', 'NORTH']

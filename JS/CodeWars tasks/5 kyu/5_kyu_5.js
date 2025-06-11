@@ -21,3 +21,8 @@ function domainName(url){
       return url
     }
 }
+
+console.log(domainName(`http://github.com/carbonfive/raygun`)) // must return github
+console.log(domainName(`http://www.zombie-bites.com`)) // must return zombie-bites
+console.log(domainName(`https://www.cnet.com`)) // must return cnet
+console.log(domainName(`www.rnet.com`)) // must return rnet

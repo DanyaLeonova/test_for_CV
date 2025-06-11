@@ -10,3 +10,6 @@ function findUniq(arr) {
   let l = s.length
   return l === 1 ? s[0] : arr.filter((x) => x !== s[0])[0]
 }
+
+console.log(findUniq([1,1,1,11,1,1,1,1,1])) // must return 11
+console.log(findUniq([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1234])) // must return 1234

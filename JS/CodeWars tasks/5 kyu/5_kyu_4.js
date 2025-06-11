@@ -19,7 +19,10 @@ function rot13(message){
       {
         s[i] = String.fromCharCode(message.charCodeAt(i) - 13)
       }
-     console.log(s) 
    }
   return s.join(``)
 }
+
+console.log(rot13(`sert123erer1`)); // must return freg123rere1
+console.log(rot13(``)); // must return 
+console.log(rot13(`123`)); // must return 123

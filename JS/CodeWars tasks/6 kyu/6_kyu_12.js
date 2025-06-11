@@ -14,3 +14,6 @@ function count(string) {
     }
   return cCount;
 }
+
+console.log(count(`aaaabdbdbdbdbdpg`)) // must return {a: 4, b: 5, d: 5, p: 1, g: 1}
+console.log(count(``)) // must return {}

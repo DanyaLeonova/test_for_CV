@@ -19,3 +19,6 @@ function diamond(n){
   }
   return diam
 }
+
+console.log(diamond(7)) // must return 7-leveled diamond
+console.log(diamond(4)) // must return null

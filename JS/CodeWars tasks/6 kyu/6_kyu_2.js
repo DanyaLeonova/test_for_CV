@@ -31,3 +31,6 @@ function stockList(books, categories) {
     });
   return res.join(' - ');
 }
+
+console.log(stockList(["ABART 20", "CDXEF 50", "BKWRK 25", "BTSQZ 89", "DRTYM 60"],["A", "B", "C", "W"])) // must return (A : 20) - (B : 114) - (C : 50) - (W : 0)
+console.log(stockList(["ABXART 201", "CDXQEF 59", "XKQWRK 25", "BTXSQZ 89", "QRTYM 60"],["A", "X", "C", "Q"])) // must return (A : 201) - (X : 25) - (C : 59) - (Q : 60)

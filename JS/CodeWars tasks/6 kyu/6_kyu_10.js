@@ -24,3 +24,6 @@ function bouncingBall(h,  bounce,  window) {
       return -1
     }
 }
+
+console.log(bouncingBall(15, 0.7, 3)) // must return 9
+console.log(bouncingBall(12, 0.6, 4)) // must return 5
