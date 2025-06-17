@@ -1,3 +1,6 @@
+Hi there! This repo contains test examples of Playwright tests and my CodeWars solutions.
+
+
 # My Codewars Solutions
 
 Personal solutions to completed Codewars challenges. 
