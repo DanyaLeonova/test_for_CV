@@ -1,0 +1,30 @@
+{
+  "name": "smoke",
+  "version": "1.0.0",
+  "description": "Personal solutions to completed Codewars challenges.",
+  "main": "Basic_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.53.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "playwright": "^1.53.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanyaLeonova/test_for_CW.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DanyaLeonova/test_for_CW/issues"
+  },
+  "homepage": "https://github.com/DanyaLeonova/test_for_CW#readme"
+}
